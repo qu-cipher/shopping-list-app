@@ -1,0 +1,117 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: system-ui, BlinkMacSystemFont, -apple-system, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#app {
+  background-color: rgb(68, 68, 68);;
+  padding: 2rem;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  width: 95%;
+  max-width: 900px;
+  color: #dcdcdc;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input {
+  background-color: #3b3b3b;
+  color: #dcdcdc;
+  min-height: 40px;
+}
+
+select {
+  background-color: #3b3b3b;
+  color: #dcdcdc;
+  min-height: 40px;
+}
+
+span {
+  color: #dcdcdc;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  
+  gap: 10px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+}
+
+.inps {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  > p {
+    text-align: center;
+  }
+}
+
+.number-inp {
+    width:5.5rem;
+}
+
+.pro-con {
+  padding-left: 10px;
+}
+
+.table-container {
+  max-height: 300px;
+  overflow-y: auto; 
+  padding-right: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+thead, .second-row {
+  background-color: #505050;
+  color: #dcdcdc;
+}
+
+thead th {
+  padding: 10px;
+  border-right: 1px white solid;
+}
+
+tbody td {
+  padding: 10px;
+  color: #dcdcdc;
+  border-right: 1px white solid;
+}
+
+thead th:last-child, 
+tbody td:last-child {
+  border-right: none;
+}
+
+.action {
+  text-align: center;
+}
